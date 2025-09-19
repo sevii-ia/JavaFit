@@ -8,7 +8,7 @@ El proyecto está dirigido a personas interesadas en mejorar su condición físi
 - **Principiantes que nunca han entrenado**
 - **Usuarios con experiencia moderada que buscan una guía rápida, accesible y sin necesidad de contratar un entrenador personal**
 
-### Objetivos Generales del Proyecto:
+## Objetivos Generales del Proyecto:
 ### 1. Recopilar datos del usuario: 
 - **Edad**
 - **Altura**
