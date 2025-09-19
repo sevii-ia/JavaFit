@@ -22,9 +22,7 @@ El proyecto está dirigido a personas interesadas en mejorar su condición físi
 - **Mejora de la fuerza**
 - **Otros objetivos personalizados**
 
-### 3. Ofrecer una interfaz clara, moderna y fácil de usar. 
-
-### 4. Validar la información básica proporcionada por el usuario y guiarlo paso a paso durante todo el proceso. 
+### 3. Validar la información básica proporcionada por el usuario y guiarlo paso a paso durante todo el proceso. 
 
 ## Herramientas para usar:
 - **Frontend: HTML, CSS, JavaScript**
