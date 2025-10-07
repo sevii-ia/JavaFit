@@ -1,7 +1,7 @@
 # JavaFit
 
 ## Idea del Proyecto:
-Desarrollar una página web moderna, funcional e intuitiva que permita a los usuarios ingresar sus datos físicos y preferencias de entrenamiento con el fin de generar recomendaciones y planes personalizados de ejercicio. 
+Desarrollar una página web moderna, funcional e intuitiva que permita a los usuarios ingresar sus datos físicos y preferencias de entrenamiento con el fin de generar recomendaciones y planes personalizados de ejercicio
 
 ### Cliente Objetivo:
 El proyecto está dirigido a personas interesadas en mejorar su condición física, incluyendo: 
