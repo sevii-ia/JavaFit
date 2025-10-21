@@ -1,32 +1,70 @@
-# JavaFit
+# 💪 JavaFit - Plataforma de Entrenamiento Personalizado
 
-## Idea del Proyecto:
-Desarrollar una página web moderna, funcional e intuitiva que permita a los usuarios ingresar sus datos físicos y preferencias de entrenamiento con el fin de generar recomendaciones y planes personalizados de ejercicio.
+### Proyecto desarrollado por:
 
-### Cliente Objetivo:
-El proyecto está dirigido a personas interesadas en mejorar su condición física, incluyendo: 
-- **Principiantes que nunca han entrenado**
-- **Usuarios con experiencia moderada que buscan una guía rápida, accesible y sin necesidad de contratar un entrenador personal**
+* **Sebastián** *(Team Leader)*
+* Israel
+* Alejandro
+* Héctor
 
-## Objetivos Generales del Proyecto:
-### 1. Recopilar datos del usuario: 
-- **Edad**
-- **Altura**
-- **Peso**
-- **Nivel de experiencia**
-- **Disponibilidad horaria**
+---
 
-### 2. Asesorar según los objetivos del usuario: 
-- **Pérdida de grasa**
-- **Ganancia de masa muscular**
-- **Mejora de la fuerza**
-- **Otros objetivos personalizados**
+## 📌 Descripción del Proyecto
 
-### 3. Validar la información básica proporcionada por el usuario y guiarlo paso a paso durante todo el proceso.
+**JavaFit** es una plataforma web moderna, funcional e intuitiva, diseñada para generar planes de entrenamiento personalizados en función de los datos físicos y objetivos de cada usuario. Nuestro enfoque está en facilitar el acceso a rutinas efectivas para personas sin experiencia o sin un entrenador personal.
 
-## Herramientas para usar:
-- **Frontend: HTML, CSS, JavaScript**
-- **Diseño y prototipo: Figma, Canva**
-- **Control de versiones: GitHub**
-- **Base de datos: MariaDB + phpmyadmin**
-- **Docker: PHP + Apache, mariadb, phpmyadmin**
+---
+
+## 🎯 Objetivo General
+
+Desarrollar una **página web responsive** que permita al usuario:
+
+1. Ingresar sus datos físicos (edad, peso, altura, experiencia).
+2. Seleccionar sus objetivos (pérdida de grasa, ganancia muscular, etc.).
+3. Generar un plan de entrenamiento personalizado.
+4. Visualizar, editar y actualizar su plan fácilmente.
+
+---
+
+## 👤 Cliente Objetivo
+
+* Personas sin experiencia previa en entrenamiento físico.
+* Usuarios intermedios que desean orientación accesible sin contratar entrenadores personales.
+
+---
+
+## 🧩 Funcionalidades Clave
+
+### ✅ Requisitos Funcionales
+
+* Registro e ingreso de datos del usuario (edad, peso, altura, experiencia, horarios).
+* Selección de objetivos de entrenamiento (grasa, músculo, fuerza, otros).
+* Validación de datos ingresados (tipo, formato y rangos lógicos).
+* Generación automática de planes personalizados.
+* Flujo guiado paso a paso (datos → objetivos → plan).
+* Visualización clara del plan (formato diario/semanal).
+* Edición y actualización de información para nuevos planes.
+
+### 🔒 Requisitos No Funcionales
+
+* **Usabilidad:** interfaz intuitiva para usuarios no técnicos.
+* **Compatibilidad:** diseño responsive para móviles, tablets y escritorio.
+* **Seguridad:** protección de datos personales, sin compartir sin permiso.
+* **Escalabilidad:** arquitectura flexible para futuras integraciones (videos, wearables).
+* **Disponibilidad:** uptime mínimo del 99%.
+* **Diseño:** estética moderna y minimalista, con enfoque en salud y dinamismo.
+
+---
+
+## 🛠️ Herramientas y Tecnologías
+
+| Área                     | Herramientas / Tecnologías                   |
+| ------------------------ | -------------------------------------------- |
+| **Frontend**             | HTML, CSS, JavaScript                        |
+| **Diseño UI/UX**         | Figma, Canva, Adobe Color                    |
+| **Control de versiones** | GitHub                                       |
+| **Base de Datos**        | MariaDB + phpMyAdmin                         |
+| **Back-End & Server**    | Docker (PHP + Apache + MariaDB + phpMyAdmin) |
+| **Emailing**             | PHPMailer                                    |
+
+---
