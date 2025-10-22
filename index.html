@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
                 <li><a href="planes.html">Planes</a></li>
@@ -25,154 +25,94 @@
                 <li><a href="rutina.html">Rutina</a></li>
             </ul>
         </nav>
-        <div>
+        <section class="membership">
             <a href="#"><span>Membership</span></a>
-        </div>
-        <div>
+        </section>
+        <section class="login">
             <button><span>Login</span></button>
-        </div>
+        </section>
     </header>
-    <main>
-        <div>
-            <h1><span>JavaFit</span></h1>
-        </div>
-        <div>
-            <p><span>JavaFit te ayuda a crear rutinas de entrenamiento personalizadas, seguir tu progreso y mantener un estilo de vida saludable. Ideal para quienes buscan mejorar su condición física y bienestar diario.</span></p>
-        </div>
-        <div>
-            <a href="#"><span>Book Now</span></a>
-        </div>
-    </main>
-    <article>
-        <figure>
-            <img src="foto.png" alt="foto">
-        </figure>
-        <section>
-            <div>
+    <main class="main">
+        <article class="intro">
+            <section class="intro-title">
+                <h1><span>JavaFit</span></h1>
+            </section>
+            <section class="intro-description">
+                <p><span>JavaFit te ayuda a crear rutinas de entrenamiento personalizadas, seguir tu progreso y mantener un estilo de vida saludable. Ideal para quienes buscan mejorar su condición física y bienestar diario.</span></p>
+            </section>
+            <section class="intro-cta">
+                <a href="#"><span>Book Now</span></a>
+            </section>
+        </article>
+        <article class="about">
+            <figure class="about-image">
+                <img src="foto.png" alt="foto">
+            </figure>
+            <section class="about-content">
                 <h2><span>About Base Fit Studio</span></h2>
-            </div>
-            <div>
                 <p><span>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</span></p>
-            </div>
-            <div>
                 <a href="#"><span>Read More</span></a>
-            </div>
-        </section>
-    </article>
-    <article>
-        <div>
+            </section>
+        </article>
+        <article class="join">
             <p>Join Base and Transform Your Body and Mind</p>
-        </div>
-    </article>
-    <article>
-        <figure>
-            <img src="foto.png" alt="foto">
-        </figure>
-        <section>
-            <div>
+        </article>
+        <article class="community">
+            <figure class="community-image">
+                <img src="foto.png" alt="foto">
+            </figure>
+            <section class="community-content">
                 <h2>Community</h2>
-            </div>
-            <div>
                 <p><span>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</span></p>
-            </div>
-        </section>
-    </article>
-    <article>
-        <section>
-            <div>
+            </section>
+        </article>
+        <article class="motivation">
+            <section class="motivation-content">
                 <h2>Motivation</h2>
-            </div>
-            <div>
                 <p><span>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</span></p>
-            </div>
-        </section>
-        <figure>
-            <img src="foto.png" alt="foto">
-        </figure>
-    </article>
-    <article>
-        <figure>
-            <img src="foto.png" alt="foto">
-        </figure>
-        <section>
-            <div>
+            </section>
+            <figure class="motivation-image">
+                <img src="foto.png" alt="foto">
+            </figure>
+        </article>
+        <article class="results">
+            <figure class="results-image">
+                <img src="foto.png" alt="foto">
+            </figure>
+            <section class="results-content">
                 <h2>Results</h2>
-            </div>
-            <div>
                 <p><span>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</span></p>
-            </div>
-        </section>
-    </article>
-    <footer>
-        <article>
-            <section>
-                <div>
-                    <h2><span>Let's Get Moving</span></h2>
-                </div>
-                <div>
-                    <p><span>Sign Up For Updates</span></p>
-                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <article class="footer-signup">
+            <section class="signup-content">
+                <h2><span>Let's Get Moving</span></h2>
+                <p><span>Sign Up For Updates</span></p>
                 <form action="#">
-                    <div>
-                        <div>
-                            <label for="first-name">First name</label>
-                        </div>
-                        <div>
-                            <input type="text" id="first-name">
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="last-name">Last name</label>
-                        </div>
-                        <div>
-                            <input type="text" id="last-name">
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="email">Email</label>
-                        </div>
-                        <div>
-                            <input type="email" id="email">
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="phone">Phone</label>
-                        </div>
-                        <div>
-                            <input type="number" id="phone">
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="message">Type your message here...</label>
-                        </div>
-                        <div>
-                            <input type="text" id="message">
-                        </div>
-                    </div>
-                    <div>
-                        <button type="submit">Subscribe</button>
-                    </div>
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone">
+                    <label for="message">Type your message here...</label>
+                    <input type="text" id="message">
+                    <button type="submit">Subscribe</button>
                 </form>
             </section>
-            <section>
-                <div>
-                    <p><span></span></p>
-                </div>
-                <div>
-
-                </div>
-                <div>
-                    <p><span>Tel: 123-456-789</span></p>
-                </div>
-                <div>
-                    <a href="#"><span>Book A Trial Class Now</span></a>
-                </div>
+        </article>
+        <article class="footer-contact">
+            <section class="contact-info">
+                <p><span>Tel: 123-456-789</span></p>
+                <a href="#"><span>Book A Trial Class Now</span></a>
             </section>
-            <section>
+        </article>
+        <article class="footer-nav">
+            <section class="footer-links">
                 <nav>
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
