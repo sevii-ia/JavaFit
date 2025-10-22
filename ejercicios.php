@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Planes - JavaFit">
+    <meta name="title" content="Ejercicios - JavaFit">
     <meta name="description" content="JavaFit te ayuda a crear rutinas de entrenamiento personalizadas, seguir tu progreso y mantener un estilo de vida saludable. Ideal para quienes buscan mejorar su condición física y bienestar diario.">
     <meta name="keywords" content="fitness, planificador de entrenamiento, salud, ejercicio, nutrición, dieta, gimnasio, entrenamiento personalizado, pérdida de peso, musculación, bienestar, actividad física, rutinas de ejercicio, motivación fitness, estilo de vida saludable">
     <meta name="robots" content="index, follow">
     <meta name="language" content="Spanish">
     <meta name="author" content="Sebastian, Israel, Alejandro, Hector">
-    <title>Planes</title>
+    <title>Ejercicios</title>
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/planes.css">
+    <link rel="stylesheet" href="assets/css/ejercicios.css">
 </head>
 <body>
     <header class="header">
@@ -21,6 +21,7 @@
                 <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
                 <li><a href="planes.html">Planes</a></li>
                 <li><a href="ejercicios.html">Ejercicios</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
                 <li><a href="rutina.html">Rutina</a></li>
             </ul>
         </nav>
@@ -29,60 +30,7 @@
         </section>
     </header>
     <main class="main">
-        <article class="pricing-header">
-            <h1>Choose your pricing plan</h1>
-        </article>
-        <article class="pricing-plan pricing-silver">
-            <section class="plan-details">
-                <p><span>Silver Membership</span></p>
-                <span class="price-symbol">$</span>
-                <span class="price-value">25</span>
-                <span class="price-duration">Every month</span>
-                <span class="plan-description">Short-term trial for beginners</span>
-                <span class="plan-validity">Valid for 2 months</span>
-                <button class="plan-select">Select</button>
-            </section>
-            <section class="plan-benefits">
-                <span>Silver Membership</span>
-                <span>Fitness assessment</span>
-                <span>Locker room with showers</span>
-            </section>
-        </article>
-        <article class="pricing-plan pricing-gold">
-            <section class="plan-details">
-                <p><span>Gold Membership</span></p>
-                <span class="price-symbol">$</span>
-                <span class="price-value">30</span>
-                <span class="price-duration">Every month</span>
-                <span class="plan-description">Ideal for advanced trainees</span>
-                <span class="plan-validity">Valid for 12 months</span>
-                <button class="plan-select">Select</button>
-            </section>
-            <section class="plan-benefits">
-                <span>Unlimited Classes</span>
-                <span>Fitness assessment</span>
-                <span>Locker room with showers</span>
-                <span>Free parking</span>
-            </section>
-        </article>
-        <article class="pricing-plan pricing-platinum">
-            <section class="plan-details">
-                <p><span>Platinum Membership</span></p>
-                <span class="price-symbol">$</span>
-                <span class="price-value">40</span>
-                <span class="price-duration">Every month</span>
-                <span class="plan-description">Perfect for committed trainers</span>
-                <span class="plan-validity">Valid for 24 months</span>
-                <button class="plan-select">Select</button>
-            </section>
-            <section class="plan-benefits">
-                <span>Unlimited Classes</span>
-                <span>Fitness assessment</span>
-                <span>Locker room with showers</span>
-                <span>Free parking</span>
-                <span>Guest Privileges</span>
-            </section>
-        </article>
+
     </main>
     <footer class="footer">
         <article class="footer-signup">
@@ -113,7 +61,7 @@
         <article class="footer-nav">
             <section class="footer-links">
                 <nav>
-                    <ul class="footer-nav-list">
+                    <ul>
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
                         <li><a href="planes.html">Planes</a></li>

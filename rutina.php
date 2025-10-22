@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Rutina - JavaFit">
+    <meta name="description" content="JavaFit te ayuda a crear rutinas de entrenamiento personalizadas, seguir tu progreso y mantener un estilo de vida saludable. Ideal para quienes buscan mejorar su condición física y bienestar diario.">
+    <meta name="keywords" content="fitness, planificador de entrenamiento, salud, ejercicio, nutrición, dieta, gimnasio, entrenamiento personalizado, pérdida de peso, musculación, bienestar, actividad física, rutinas de ejercicio, motivación fitness, estilo de vida saludable">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="author" content="Sebastian, Israel, Alejandro, Hector">
+    <title>Rutina</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/rutina.css">
+</head>
+<body>
+
+</body>
+</html>
