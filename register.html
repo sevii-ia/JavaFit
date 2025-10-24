@@ -21,15 +21,15 @@
                 <h1><span>Registrar</span></h1>
             </section>
             <section class="register-form">
-                <form action="#">
+                <form action="assets/php/register.php" method="POST" class="form">
                     <label for="first-name" class="form-label">First name</label>
-                    <input type="text" id="first-name" class="form-input" required>
+                    <input type="text" id="first-name" class="form-input" name="first-name" required>
                     <label for="last-name" class="form-label">Last name</label>
-                    <input type="text" id="last-name" class="form-input" required>
+                    <input type="text" id="last-name" class="form-input" name="last-name" required>
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" id="email" class="form-input" required>
+                    <input type="email" id="email" class="form-input" name="email" required>
                     <label for="phone" class="form-label">Phone</label>
-                    <input type="number" id="phone" class="form-input">
+                    <input type="number" id="phone" class="form-input" name="phone" required>
                     <button type="submit" class="form-button">Registrar</button>
                 </form>
             </section>
